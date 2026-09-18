@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://buqu8l6ujukse"]
+
+[ext_resource type="Script" uid="uid://cb6yt5mgynmr2" path="res://scenes/main_menu/MainMenu.gd" id="1_axelx"]
+[ext_resource type="Texture2D" uid="uid://c34ypv1xv6273" path="res://maps/tutorial/preview.png" id="1_isws5"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_axelx")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Quit" type="Button" parent="CanvasLayer"]
+offset_left = 1736.0
+offset_top = 992.0
+offset_right = 1899.0
+offset_bottom = 1059.0
+text = "Quit to Desktop"
+
+[node name="Tutorial" type="Panel" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -130.0
+offset_top = -73.0
+offset_right = 124.0
+offset_bottom = 182.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureButton" type="TextureButton" parent="CanvasLayer/Tutorial"]
+layout_mode = 1
+offset_right = 256.0
+offset_bottom = 258.0
+texture_normal = ExtResource("1_isws5")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Tutorial"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -31.0
+offset_right = 253.0
+offset_bottom = -1.0
+text = "Tutorial"
