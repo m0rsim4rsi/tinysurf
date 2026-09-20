@@ -12,7 +12,7 @@ You can create a map for TinySurf using **Blender**, or any 3D modeling software
 
 1. Add an empty 3D object with name `MAP_START` to denote the player spawn point, and `MAP_END` to denote the finish line.
 
-2. Any collision geometry must include the suffix `_col`. This [tells](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.html#create-collisions-col-convcol-colonly-convcolonly) the Godot engine to automatically build a collision mesh from your geometry, including ramps, floors, walls or anything the player cannot move through. 
+2. Any collision geometry must include the suffix `_col`. This [tells](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.html#create-collisions-col-convcol-colonly-convcolonly) the Godot engine to automatically build a collision mesh from your geometry. This includes ramps, floors, walls or anything the player cannot move through. 
 
 3. Export your map as a binary glTF container (.glb).
 
