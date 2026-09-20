@@ -35,7 +35,7 @@ tinysurf
             - screenshot.jpg
 ```
 
-#### Metadata format
+#### Metadata format (JSON)
 
 ```
 Field           Type        Description
