@@ -1,6 +1,6 @@
 # TinySurf
 
-TinySurf is a tiny movement based video game inspired by CS 1.6 / Source / CS:GO. 
+TinySurf is a simple movement based video game inspired by CS 1.6 / Source / CS:GO. 
 
 ## Download
 
