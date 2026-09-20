@@ -8,7 +8,9 @@ You can find the latest release of TinySurf [here](https://github.com/m0rsim4rsi
 
 ## Creating your own TinySurf map
 
-You can create a map for TinySurf using **Blender**, or any 3D modeling software with **glTF** support. Follow these instructions before exporting your map:
+You can create a map for TinySurf using **Blender**, or any 3D modeling software with **glTF** support. 
+
+Follow these instructions before exporting your map:
 
 1. Add an empty 3D object with name `MAP_START` to denote the player spawn point, and `MAP_END` to denote the finish line.
 
